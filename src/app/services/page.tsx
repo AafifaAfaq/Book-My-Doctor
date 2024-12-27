@@ -6,7 +6,7 @@ const page = () => {
       {/* About Section */}
 
 {/* Gray overlay for blurred effect */}
-<div className="about-content relative max-w-4xl mx-auto text-center z-10 py-5 sm:py-6 md:py-8 lg:py-10 font-sans">
+<div className="about-content relative max-w-4xl mx-auto top-20 text-center z-10 py-5 sm:py-6 md:py-8 lg:py-10 font-sans">
   <h2 className="text-2xl sm:text-2xl md:text-4xl font-bold text-gray-800 text-gradient animate__animated animate__fadeIn mb-4 sm:mb-6 md:mb-8">
     About Us
   </h2>
@@ -27,7 +27,7 @@ const page = () => {
     Explore our platform and take the first step towards better health.
   </p>
 </div>
-<div className="flex justify-center py-10 sm:py-12 md:py-16 lg:py-10">
+<div className="flex justify-center py-12 sm:py-12 md:py-16 lg:py-10">
   <img
     className="w-full h-auto max-w-md rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300"
     src="./pic2.jpg"
@@ -113,7 +113,7 @@ const page = () => {
         </div>
         <div className="flex justify-center gap-5 py-10">
           <img
-            className="w-full h-auto max-w-md rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300"
+            className="w-full h-auto hidden sm:hidden md:block lg:block max-w-md rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300"
             src="./pic4.jpg"
             alt="background"
             width={500}
